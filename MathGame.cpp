@@ -42,7 +42,7 @@ string finalResultsLevel(int number);
 string finalResultsOperation(int number);
 void resetProgram();
 
-//--------------------------------------
+//--------------------------------------Main starts
 int main()
 {
 	srand(unsigned(time(NULL)));
@@ -104,7 +104,7 @@ int main()
 		ShowFinalResults(RightAnswers, WrongAnswers);
 	} while (programIterations());
 }
-//---------------------------------------
+//---------------------------------------End main
 bool programIterations()
 {
 	char state = 'n';
